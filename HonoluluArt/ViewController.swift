@@ -17,6 +17,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         centerMapOnLocation(initialLocation)
+        
+        let artwork = Artwork(title: "大卫国王雕像",
+            locationName: "夏威夷门公园",
+            discipline: "Sculpture",
+            coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
+        mapView.addAnnotation(artwork)
     }
 
     let regionRadius: CLLocationDistance = 1000

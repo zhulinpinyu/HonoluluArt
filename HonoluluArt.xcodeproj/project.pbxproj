@@ -14,6 +14,7 @@
 		BD5F02001BE9186900771112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5F01FE1BE9186900771112 /* LaunchScreen.storyboard */; };
 		BD5F020B1BE9186900771112 /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F020A1BE9186900771112 /* HonoluluArtTests.swift */; };
 		BD5F02161BE9186900771112 /* HonoluluArtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F02151BE9186900771112 /* HonoluluArtUITests.swift */; };
+		BD5F02241BE92A9D00771112 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F02231BE92A9D00771112 /* Artwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BD5F02111BE9186900771112 /* HonoluluArtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5F02151BE9186900771112 /* HonoluluArtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtUITests.swift; sourceTree = "<group>"; };
 		BD5F02171BE9186900771112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5F02231BE92A9D00771112 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BD5F01F51BE9186900771112 /* AppDelegate.swift */,
 				BD5F01F71BE9186900771112 /* ViewController.swift */,
+				BD5F02231BE92A9D00771112 /* Artwork.swift */,
 				BD5F01F91BE9186900771112 /* Main.storyboard */,
 				BD5F01FC1BE9186900771112 /* Assets.xcassets */,
 				BD5F01FE1BE9186900771112 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5F01F81BE9186900771112 /* ViewController.swift in Sources */,
+				BD5F02241BE92A9D00771112 /* Artwork.swift in Sources */,
 				BD5F01F61BE9186900771112 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
