@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD24127B1BEB69EA00E30629 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = BD24127A1BEB69EA00E30629 /* PublicArt.json */; };
+		BD2F1CD81BEA6B9E00382768 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F1CD71BEA6B9E00382768 /* VCMapView.swift */; };
 		BD5F01F61BE9186900771112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F01F51BE9186900771112 /* AppDelegate.swift */; };
 		BD5F01F81BE9186900771112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F01F71BE9186900771112 /* ViewController.swift */; };
 		BD5F01FB1BE9186900771112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5F01F91BE9186900771112 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD24127A1BEB69EA00E30629 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = ../../../../Downloads/HonoluluArtResources/PublicArt.json; sourceTree = "<group>"; };
+		BD2F1CD71BEA6B9E00382768 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		BD5F01F21BE9186900771112 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5F01F51BE9186900771112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD5F01F71BE9186900771112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD24127C1BEB69F600E30629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD24127A1BEB69EA00E30629 /* PublicArt.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BD5F01E91BE9186900771112 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +111,10 @@
 		BD5F01F41BE9186900771112 /* HonoluluArt */ = {
 			isa = PBXGroup;
 			children = (
+				BD24127C1BEB69F600E30629 /* Supporting Files */,
 				BD5F01F51BE9186900771112 /* AppDelegate.swift */,
 				BD5F01F71BE9186900771112 /* ViewController.swift */,
+				BD2F1CD71BEA6B9E00382768 /* VCMapView.swift */,
 				BD5F02231BE92A9D00771112 /* Artwork.swift */,
 				BD5F01F91BE9186900771112 /* Main.storyboard */,
 				BD5F01FC1BE9186900771112 /* Assets.xcassets */,
@@ -232,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD24127B1BEB69EA00E30629 /* PublicArt.json in Resources */,
 				BD5F02001BE9186900771112 /* LaunchScreen.storyboard in Resources */,
 				BD5F01FD1BE9186900771112 /* Assets.xcassets in Resources */,
 				BD5F01FB1BE9186900771112 /* Main.storyboard in Resources */,
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2F1CD81BEA6B9E00382768 /* VCMapView.swift in Sources */,
 				BD5F01F81BE9186900771112 /* ViewController.swift in Sources */,
 				BD5F02241BE92A9D00771112 /* Artwork.swift in Sources */,
 				BD5F01F61BE9186900771112 /* AppDelegate.swift in Sources */,
@@ -486,6 +502,7 @@
 				BD5F021C1BE9186A00771112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5F021D1BE9186A00771112 /* Build configuration list for PBXNativeTarget "HonoluluArtTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +511,7 @@
 				BD5F021F1BE9186A00771112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5F02201BE9186A00771112 /* Build configuration list for PBXNativeTarget "HonoluluArtUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +520,7 @@
 				BD5F02221BE9186A00771112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
