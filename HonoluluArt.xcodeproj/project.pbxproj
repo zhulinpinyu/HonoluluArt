@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD24127B1BEB69EA00E30629 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = BD24127A1BEB69EA00E30629 /* PublicArt.json */; };
+		BD24127E1BEBB3B100E30629 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24127D1BEBB3B100E30629 /* JSON.swift */; };
 		BD2F1CD81BEA6B9E00382768 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F1CD71BEA6B9E00382768 /* VCMapView.swift */; };
 		BD5F01F61BE9186900771112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F01F51BE9186900771112 /* AppDelegate.swift */; };
 		BD5F01F81BE9186900771112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F01F71BE9186900771112 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		BD24127A1BEB69EA00E30629 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PublicArt.json; path = ../../../../Downloads/HonoluluArtResources/PublicArt.json; sourceTree = "<group>"; };
+		BD24127D1BEBB3B100E30629 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../../../../Downloads/HonoluluArtResources/JSON.swift; sourceTree = "<group>"; };
 		BD2F1CD71BEA6B9E00382768 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		BD5F01F21BE9186900771112 /* HonoluluArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5F01F51BE9186900771112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		BD5F01F41BE9186900771112 /* HonoluluArt */ = {
 			isa = PBXGroup;
 			children = (
+				BD24127D1BEBB3B100E30629 /* JSON.swift */,
 				BD24127C1BEB69F600E30629 /* Supporting Files */,
 				BD5F01F51BE9186900771112 /* AppDelegate.swift */,
 				BD5F01F71BE9186900771112 /* ViewController.swift */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2F1CD81BEA6B9E00382768 /* VCMapView.swift in Sources */,
+				BD24127E1BEBB3B100E30629 /* JSON.swift in Sources */,
 				BD5F01F81BE9186900771112 /* ViewController.swift in Sources */,
 				BD5F02241BE92A9D00771112 /* Artwork.swift in Sources */,
 				BD5F01F61BE9186900771112 /* AppDelegate.swift in Sources */,
