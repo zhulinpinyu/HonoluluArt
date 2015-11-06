@@ -22,6 +22,7 @@ extension ViewController: MKMapViewDelegate {
                 view.calloutOffset = CGPoint(x: -5, y: 5)
                 view.canShowCallout = true
                 view.rightCalloutAccessoryView = UIButton(type: UIButtonType.DetailDisclosure) as UIView
+                view.pinTintColor = annotation.pinColor()
             }
             return view
         }
