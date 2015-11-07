@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HonoluluArt/ViewController.swift"
+            timestampString = "468555805.796336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "loadInitialDtata()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HonoluluArt.ViewController.regionRadius.getter : Swift.Double"
+                  moduleName = "HonoluluArt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixiangmu/LearnDir/Swift/HonoluluArt/HonoluluArt/ViewController.swift"
+                  timestampString = "468555415.036267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HonoluluArt.ViewController.init (HonoluluArt.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; HonoluluArt.ViewController"
+                  moduleName = "HonoluluArt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixiangmu/LearnDir/Swift/HonoluluArt/HonoluluArt/ViewController.swift"
+                  timestampString = "468555415.03995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HonoluluArt.ViewController.init (HonoluluArt.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;HonoluluArt.ViewController&gt;"
+                  moduleName = "HonoluluArt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixiangmu/LearnDir/Swift/HonoluluArt/HonoluluArt/ViewController.swift"
+                  timestampString = "468555415.040124"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
